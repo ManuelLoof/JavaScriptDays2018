@@ -31,6 +31,14 @@ function dynamicParams(a, ...other) {}
 - Arrow Function => Lamdba Ausdruck.
 - let is better then var. let is only visible in the blockscope.
 - airbnb style-guide (https://github.com/airbnb/javascript)
+- const in JavaScript hält die Refernz fest. Bei einem Datentyp ist es eine echte Konstante.
+- immutable (https://facebook.github.io/immutable-js/) [groß] und immutablily-helper (https://github.com/kolodny/immutability-helper) [Klein und fein] für DeepCopies anschauen.
+- Konstruktor Funktionen sind ganz normale Funktionen. Best Practise UpperCase.
+- this ist immer der aktuelle Scope. function zertört this. Lamda verwenden. Früher wurde bind oder var self = this verwendet.
+- asnyc und await gibt es auch in JavaScript. Basiert auf Promises.
+- event.preventDefault(); ganz wichtig. Immer bei Event Handler machen. Gibt noch eine Steigerung. 
+- swagger
+
 
 ## Nachforschen
 
